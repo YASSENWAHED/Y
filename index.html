@@ -1,185 +1,1273 @@
 
 <!DOCTYPE html>
-<html oncontextmenu="return false" onselectstart="return false" ondragstart="return false" lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- #CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- #box icon -->
+    <meta charset="utf-8">
+    <script src="sweetalert2.all.min.js"></script>
+    <meta property="og:title" content="Melhor site de métodos e APIs">
+    <meta property="og:image" content="https://telegra.ph/file/023b733db147076bb4d24.jpg">
+    <title>Venom Apis</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Venom Web Site" name="keywords">
+    <meta content="By Venom Mods" name="description">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
+    <!-- Favicon -->
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+<!-- Basic stylesheet -->
+   <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+ 
+ <!-- Default Theme -->
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+ 
+
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+<style>
+.content{
+       background: url(https://telegra.ph/file/b58b63da2fdddc91f4637.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      font-family: 'Barlow', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.oii{
+background: rgba(000,000,000 , 0.7);
+}
+.mb-2{
+color: white;
+}
+.im{
+color: white;
+}
+.he{
+color: #07e8d9;
+
+}
+.hg{
+text-align: right;
+}
+
+
+      </style>
+
+</head>
+
+<body>
+    <div class="container-fluid position-relative d-flex p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Carregando...</span>
+            </div>
+        </div>
+        <!-- Spinner End-->
+
+
+        <!-- Sidebar aqui -->
+        <!-- Sidebar Start -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand mx-4 mb-3">
+                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>Venom Mods</h3>
+                </a>
+                <div class="d-flex align-items-center ms-4 mb-4">
+                    <div class="position-relative">
+                        <img class="rounded-circle" src="https://telegra.ph/file/bf635a74f7cbf75f44a27.jpg" alt="" style="width: 40px; height: 40px;">
+                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+                    </div>
+                    <div class="ms-3">
+                        <h6 class="mb-0">Venom Apis</h6>
+                        <span>Melhores Métodos</span>
+                    </div>
+                </div>
+                <div class="navbar-nav w-100">
+
+<div>
+
+<div>
+                                        <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                        style="font-style: italic;"><i class="fa fa-file"></i> MÉTODOS </a>
+                        
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a class="dropdown-item" target="_blank" href="/api/mercadopago/pix?token=SeuToken&valor=20"
+                                style="font-style: italic;">Mercado Pago Api</a>
+                            <a class="dropdown-item" target="_blank" href="/api/payment/gerarpix?token=SeuToken&valor=20"
+                                style="font-style: italic;">Pix Automático Api</a>         
+                            <a class="dropdown-item" target="_blank" href="/api/payment/checkpix?token=SeuToken&id=42562727"
+                                style="font-style: italic;">Check Pix Automático Api</a>   
+                            <a class="dropdown-item" target="_blank" href="/api/chatgpt?apikey=SuaKey&pergunta=o que é um robô"
+                                style="font-style: italic;">Chat Gpt</a>          
+                            <a class="dropdown-item" target="_blank" href="/api/blackbox?apikey=SuaKey&pergunta=o que é um robô"
+                                style="font-style: italic;">BlackBox</a>                                                                                                                                                                                               
+                            <a class="dropdown-item" target="_blank" href="/api/metodos/VenomSpam?apikey=SuaKey"
+                                style="font-style: italic;">Spam em Número</a>
+                            <a class="dropdown-item" target="_blank" href="/api/tempban?apikey=SuaKey"
+                                style="font-style: italic;">Bugar Código</a>
+                            <a class="dropdown-item" target="_blank" href="/api/metodos/bugar_codigo?apikey=SuaKey&ddi=55&numero=9784388523"  
+                                style="font-style: italic;">Bugar Código V2</a>
+                            <a class="dropdown-item" target="_blank" href="/BanVenom?apikey=SuaKey"                            
+                                style="font-style: italic;">Métodos de ban</a>
+                            <a class="dropdown-item" target="_blank" href="/api/metodos/desban_analise?apikey=SuaKey&numero=559784388523"                            
+                                style="font-style: italic;">Desban Análise Api</a>             
+                            <a class="dropdown-item" target="_blank" href="/api/metodos/banir_numero?apikey=SuaKey&numero=559784388523"                            
+                                style="font-style: italic;">Banir Número Api</a>                                                                
+                            <a class="dropdown-item" target="_blank" href="/NicksVenom?apikey=SuaKey"
+                                style="font-style: italic;">Gerador de nicks</a>   
+                            <a class="dropdown-item" target="_blank" href="/BotsVenom?apikey=SuaKey"
+                                style="font-style: italic;">Bots para WhatsApp</a> 
+                            <a class="dropdown-item" target="_blank" href="/FontesVenom?apikey=SuaKey"
+                                style="font-style: italic;">Modificar fontes</a>  
+                            <a class="dropdown-item" target="_blank" href="/VenomGame?apikey=SuaKey"
+                                style="font-style: italic;">Joguinho Ping Pong</a>   
+                            <a class="dropdown-item" target="_blank" href=""
+                                style="font-style: italic;">Cases para bots</a>                                                                                                                                                                                                                                                                                  
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="font-style: italic;">
+        <i class="fa fa-th-large"></i> CARDS
+    </a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/menu1?nome=Venom&numero=559784388522&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Menu v1</a>  
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/menu2?nome=Venom&numero=559784388522&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Menu v2</a>                                                              
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/perfil?nome=Venom&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Perfil v1</a>      
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/perfil1?nome=Venom&numero=55979438852&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Perfil v2</a>                  
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/perfil2?nome=Venom&numero=55979438852&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Perfil v3</a>                                                                                             
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/bemvindo?nome=Venom&nomegp=VenomApis&membros=666&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&fotogp=https://telegra.ph/file/bf635a74f7cbf75f44a27.jpg&fundo=https://telegra.ph/file/14c9a6ce9c4e3e43a8ee1.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Bem Vindo v1</a>     
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/adeus?nome=Venom&nomegp=VenomApis&membros=666&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&fotogp=https://telegra.ph/file/bf635a74f7cbf75f44a27.jpg&fundo=https://telegra.ph/file/14c9a6ce9c4e3e43a8ee1.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Adeus Membro v1</a>       
+                            <a class="dropdown-item" target="_blank" href="/api/card/bemvindo?apikey=SuaKey&numero=559784388524"
+                                style="font-style: italic;">Bem Vindo v2</a>    
+                            <a class="dropdown-item" target="_blank" href="/api/card/adeus2?apikey=SuaKey&numero=559784388524"
+                                style="font-style: italic;">Adeus Membro v2</a>       
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/bemvindo3?numero=Venom&grupo=VenomApis&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Bem-vindo Membro v3</a>                    
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/adeus3?numero=Venom&grupo=VenomApis&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Adeus Membro v3</a>     
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/bemvindo4?numero=559784388524&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Bem-vindo Membro V4</a>  
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/adeus4?numero=559784388524&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Adeus Membro V4</a>                                             
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/bemvindo5?numero=559784388524&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&fundo=https://telegra.ph/file/c80a3b8e3e8893ad15704.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Bem-vindo Membro V5</a>                                       
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/adeus5?numero=559784388524&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&fundo=https://telegra.ph/file/c80a3b8e3e8893ad15704.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Adeus Membro V5</a>    
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/bemvindo6?numero=559784388524&texto=leia%20as%20regras,%20vacilou%20e%20ban&fundo=https://telegra.ph/file/1a7fecd69fd3c3e22be8e.jpg&perfil=https://telegra.ph/file/546c81cf2a5af43d3c04c.jpg&cor=red&apikey=SuaKey"
+                                style="font-style: italic;">Bem-vindo Membro V6</a>                                                                                                                                                                                                                 
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/promover?nome=Venom&nomegp=VenomApis&membros=666&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&fotogp=https://telegra.ph/file/bf635a74f7cbf75f44a27.jpg&fundo=https://telegra.ph/file/14c9a6ce9c4e3e43a8ee1.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Promover Adm</a>        
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/rebaixar?nome=Venom&nomegp=VenomApis&membros=666&perfil=https://telegra.ph/file/f75b1d96b73d5fb69c90c.jpg&fotogp=https://telegra.ph/file/bf635a74f7cbf75f44a27.jpg&fundo=https://telegra.ph/file/14c9a6ce9c4e3e43a8ee1.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Rebaixar Adm</a>  
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/playmusic?titulo=Teto - M4 feat. Matuê&logo=https://telegra.ph/file/036bfc60858133a6ce35b.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Música</a> 
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/playmusic1?titulo=Teto - M4 feat. Matuê&logo=https://telegra.ph/file/036bfc60858133a6ce35b.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Música 1</a>
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/playmusic2?titulo=Teto - M4 feat. Matuê&logo=https://telegra.ph/file/036bfc60858133a6ce35b.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Música 2</a>
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/playmusic3?titulo=Teto - M4 feat. Matuê&logo=https://telegra.ph/file/036bfc60858133a6ce35b.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Música 3</a>                                                                                                                                                                                                                                                 
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/playmusic4?titulo=Teto - M4 feat. Matuê&logo=https://telegra.ph/file/036bfc60858133a6ce35b.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Música 4</a>                                                                                                                                                                                                                                                 
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/card/playmusic5?titulo=Teto - M4 feat. Matuê&logo=https://telegra.ph/file/036bfc60858133a6ce35b.jpg&apikey=SuaKey"
+                                style="font-style: italic;">Card Música 5</a>                                                                                                                                                                                                                                                 
+
+</div>
+                         <div class="nav-item dropdown">                        
+                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                         style="font-style: italic;"><i class="fa fa-cogs"></i> IA IMAGEM </a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/gerador/ia1?apikey=SuaKey&texto=Venom"
+                                style="font-style: italic;">Ia Bing Gerar Imagem</a>  
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/gerador/ia2?apikey=SuaKey&imagem=https://telegra.ph/file/b96296652943aab378157.jpg"
+                                style="font-style: italic;">Gerar Imagem v2</a>   
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/gerador/ia3?apikey=SuaKey&imagem=https://telegra.ph/file/b96296652943aab378157.jpg"
+                                style="font-style: italic;">Gerar Imagem v3</a>                                                                                                                                                                                                                                                                                                                                                           
+</div>                                
+                                        <div class="nav-item dropdown">                        
+                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                         style="font-style: italic;"><i class="fa fa-ban"></i> PORNOGRAFIA </a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/xvideos?apikey=SuaKey&pesquisa=tigresa"
+                                style="font-style: italic;">Xvideos</a>  
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/hentai?apikey=SuaKey"
+                                style="font-style: italic;">Hentai</a>     
+                      <a class="dropdown-item" target="_blank" href="/api/porno/nsfwloli?apikey=SuaKey" target="_blank" >Imagens loli</a>                                                                                 
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/buceta?apikey=SuaKey"
+                                style="font-style: italic;">Imagens Xerequinha</a>                 
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/bunda?apikey=SuaKey"
+                                style="font-style: italic;">Imagens Rabas</a>   
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/peito?apikey=SuaKey"
+                                style="font-style: italic;">Imagens Peitos</a>     
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/anal?apikey=SuaKey"
+                                style="font-style: italic;">Imagens Anal</a>   
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/69?apikey=SuaKey"
+                                style="font-style: italic;">Imagens 69</a>  
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/fetiche?apikey=SuaKey"
+                                style="font-style: italic;">Imagens Fetiche</a>
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/morena?apikey=SuaKey"
+                                style="font-style: italic;">Imagens Morenas</a> 
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/semcalcinha?apikey=SuaKey"
+                                style="font-style: italic;">Imagens Sem Calcinha</a>
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/porno/gozando?apikey=SuaKey"
+                                style="font-style: italic;">Imagens Gozando</a>                                                                                                                                                                                                                                                                                                                                  
+</div>                                
+                                        <div class="nav-item dropdown">                        
+                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                         style="font-style: italic;"><i class="fa fa-download"></i> DOWNLOAD </a>
+                                
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/download/play?apikey=SuaKey&nome=teto m4"
+                                style="font-style: italic;">Play Áudio</a>  
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/download/playvideo?apikey=SuaKey&nome=Venomcollab8k Bot De travas"
+                                style="font-style: italic;">Play Vídeo</a>                                                                                 
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/download/youtube_pesquisa?apikey=SuaKey&nome=Venom Mods"
+                                style="font-style: italic;">YouTube Pesquisa</a>                                                              
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/download/mediafire?apikey=SuaKey&query=https://www.mediafire.com/file/39o3dijk4tqyk2f/Acode_base.apk/file"
+                                style="font-style: italic;">Media Fire</a>         
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/download/print?apikey=SuaKey&url=https://YouTube.com"
+                                style="font-style: italic;">Print Web</a>                                                                 
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/download/meme_audio?apikey=SuaKey&query=lula"
+                                style="font-style: italic;">Meme Audio</a>        
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/download/meme_imagem?apikey=SuaKey"
+                                style="font-style: italic;">Meme Imagem</a>        
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/download/meme_video?apikey=SuaKey"
+                                style="font-style: italic;">Meme Video</a>                                                                                         
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/download/ytmp3?apikey=SuaKey&url=https://www.youtube.com/watch?v=7AlAYttGnAg"
+                                style="font-style: italic;">Youtube Audio</a>
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/download/ytmp4?apikey=SuaKey&url=https://www.youtube.com/watch?v=7AlAYttGnAg"
+                                style="font-style: italic;">Youtube Video</a>
+                            <a class="dropdown-item" target="_blank" href="/api/yt/playmp3?apikey=SuaKey&query=vmz baka"
+                                style="font-style: italic;">Play MP3</a>
+                            <a class="dropdown-item" target="_blank" href="/api/yt/playmp4?apikey=SuaKey&query=vmz baka"
+                                style="font-style: italic;">Play MP4</a>
+                            <a class="dropdown-item" target="_blank" href="/api/yt/search?apikey=SuaKey&query=vmz"
+                                style="font-style: italic;">YT Search</a>
+
+                            <a class="dropdown-item" target="_blank" href="/api/download/tiktok?apikey=SuaKey&url=https://vm.tiktok.com/ZMY22YQd8/"
+                                style="font-style: italic;">Tiktok audio/video</a>
+
+                          <a class="dropdown-item" target="_blank" href="/api/download/pinterest?apikey=SuaKey&query=naruto"
+                                style="font-style: italic;">Pinterest</a>
+
+                          <a class="dropdown-item" target="_blank"
+                                href="/api/download/instagram_video?apikey=SuaKey&url=https://www.instagram.com/p/CovGT8ZP6HZ/?igshid=YmMyMTA2M2Y="
+                                style="font-style: italic;">Instagram Video</a>
+                                
+                        </div>
+                    </div>
+                <!--    <div class="nav-item dropdown">
+                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                         style="font-style: italic;"><i class="fa fa-gamepad"></i> JOGOS </a>
+                    
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a class="dropdown-item" target="_blank" href="/api/game/adivinheabandeira?apikey=SuaKey"
+                                style="font-style: italic;">Adivinhe a Bandeira 🇧🇷</a>
+                            <a class="dropdown-item" target="_blank" href="/api/game/adivipersonagem?apikey=SuaKey"
+                                style="font-style: italic;">Adivinhe o Personagem 👦</a>
+                        </div>
+                    </div> --->
+                                        <div class="nav-item dropdown">                        
+                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                         style="font-style: italic;"><i class="fa fa-paint-brush"></i> EDITS </a>
+                                
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a class="dropdown-item" target="_blank" href="/api/logos/logos_aleatorias?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Logos Aleatória</a>                        
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit1?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 1</a>
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit2?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 2</a>
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit3?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 3</a>
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit4?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 4</a>   
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit5?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 5</a> 
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit6?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 6</a>  
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit7?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 7</a>   
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit8?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 8</a>   
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit9?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 9</a>  
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit10?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 10</a>     
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit11?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 11</a>                
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit12?apikey=SuaKey&text1=Venom&text2=O melhor"
+                                style="font-style: italic;">Edit 12</a> 
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit13?apikey=SuaKey&query=Venom"
+                                style="font-style: italic;">Edit 13</a>        
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit14?apikey=SuaKey&text1=Venom&text2=9784388524"
+                                style="font-style: italic;">Edit 14</a>      
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit15?apikey=SuaKey&nome1=Venom&nome2=Mods"
+                                style="font-style: italic;">Edit 15</a>     
+                            <a class="dropdown-item" target="_blank" href="/api/logos/edit16?apikey=SuaKey&nome1=Venom&nome2=Mods"
+                                style="font-style: italic;">Edit 14</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                        </div>
+                    </div>
+                              <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                        style="font-style: italic;"><i class="fa fa-search"></i> CONSULTAS </a>
+                                 
+                        <div class="dropdown-menu bg-transparent border-0">
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/telefone/query=92984388522?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Telefone </a>    
+                              <a class="dropdown-item" target="_blank" href="/api/consultas/nome/query=Carlos Eduardo?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Nome</a>                                    
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/cpf/query=50601788893?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Cpf Completa</a>    
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/cpf2/query=50601788893?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Cpf Sus</a>      
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/cpf3/query=50601788893?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Cpf Básica</a>     
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/vacina/query=50601788893?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Vacinação</a>           
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/impostos/query=50601788893?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Impostos</a>                                                 
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/score/query=50601788893?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Score</a>        
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/compras/query=50601788893?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Compras</a>                                        
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/correios/query=xt1tq667?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Correios</a>             
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/chassi/query=BT205686?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Chass</a>      
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/cns/query=706005834409540?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Cns</a>                                                                                                                                                                                                                                                                                                                                                                                 
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/ddd?apikey=SuaKey&query=97"
+                                style="font-style: italic;">Consultar Ddd</a>     
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/placa?placa=gnb6074&apikey=SuaKey"
+                                style="font-style: italic;">Consultar Placa v1</a>     
+                             <a class="dropdown-item" target="_blank" href="/api/consulta/placa1/query=gnb6074?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Placa v2</a>                            
+                             <a class="dropdown-item" target="_blank" href="/api/consulta/placa2/query=gnb6074?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Placa v3</a>                                                                         
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/rg/query=265983071?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Rg</a>  
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/bin?apikey=SuaKey&bin=539083"
+                                style="font-style: italic;">Consultar Bin</a>                                                                                                 
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/feriados?apikey=SuaKey&query=CE"
+                                style="font-style: italic;">Consultar Feriados</a>
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/bancolista?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Lista De Bancos</a>    
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/cnpj?apikey=SuaKey&query=27865757000102"
+                                style="font-style: italic;">Consultar Cnpj</a>    
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/bank?apikey=SuaKey&query=33"
+                                style="font-style: italic;">Consultar Banco</a>
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/cep?apikey=SuaKey&query=57072450"
+                                style="font-style: italic;">Consultar Cep</a>    
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/vizinhos/query=50601788893?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Vizinhos</a>    
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/parentes/query=50601788893?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Parentes</a>                                                                    
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/beneficios/query=50601788893?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Benefícios</a>
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/sote/query=https://google.com?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Site</a>     
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/email/query=seilar80@gmail.com?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Email</a>    
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/mae/query=Noemia Pereira?apikey=SuaKey"
+                                style="font-style: italic;">Consultar Mãe</a>      
+                             <a class="dropdown-item" target="_blank" href="/api/consultas/ip?query=204.152.203.157&apikey=SuaKey"
+                                style="font-style: italic;">Consultar Ip</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                        </div>
+                    </div> 
+                    <div class="nav-item dropdown">
+                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                        style="font-style: italic;"><i class="fas fa-random"></i> GERADORES </a>
+                                                         
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/gerarnick?apikey=SuaKey&query=Venom"
+                            style="font-style: italic;">Gerar Nick</a>   
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/disney?apikey=SuaKey"
+                            style="font-style: italic;">Conta Disney</a>                                                    
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/netflix?apikey=SuaKey"
+                            style="font-style: italic;">Conta Netflix</a> 
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/hbomax?apikey=SuaKey"
+                            style="font-style: italic;">Conta Hbomax</a>                    
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/starplus?apikey=SuaKey"
+                            style="font-style: italic;">Conta Starplus</a>                    
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/deezer?apikey=SuaKey"                            
+                            style="font-style: italic;">Conta Deezer</a>
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/paramount?apikey=SuaKey"                            
+                            style="font-style: italic;">Conta Paramount</a>                          
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/nordvpn?apikey=SuaKey"                            
+                            style="font-style: italic;">Conta Nordvpn</a>              
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/nordvpn?apikey=SuaKey"                            
+                            style="font-style: italic;">Conta Crunchyroll</a>                   
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/ufcsports?apikey=SuaKey"                            
+                            style="font-style: italic;">Conta UFCsports</a>                        
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/credlink?apikey=SuaKey"                            
+                            style="font-style: italic;">Conta Credlink</a>       
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/sp-pni?apikey=SuaKey"                            
+                            style="font-style: italic;">Conta Sp-pni</a>   
+                            <a class="dropdown-item" target="_blank" href="/api/gerador/pmrj?apikey=SuaKey"                            
+                            style="font-style: italic;">Conta Pmrj</a>                                                                                                                                                                                                                                                                                                                                                                                                                      
+                            <a class="dropdown-item" target="_blank" href="/api/random/meme?apikey=SuaKey"                            
+                            style="font-style: italic;">Meme</a>
+                            <a class="dropdown-item" target="_blank" href="/api/palavra/conselho?apikey=SuaKey"
+                            style="font-style: italic;">Conselhos</a>
+                                                    </div>
+                    </div>                    
+               <!--     <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                        style="font-style: italic;"><i class="fa fa-exclamation-triangle"></i> NSFW </a>
+                                                  
+                        <div class="dropdown-menu bg-transparent border-0">
+                      <a class="dropdown-item" target="_blank" href="/api/anime/nsfwloli?apikey=SuaKey" target="_blank" >Nswf loli</a>
+                       <a class="dropdown-item" target="_blank" href="/api/nsfw/ahegao?apikey=SuaKey" target="_blank" >nsfw ahegao</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/ass?apikey=SuaKey" target="_blank" >nsfw ass</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/bdsm?apikey=SuaKey" target="_blank" >Nswf bdsm</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/blowjob?apikey=SuaKey" target="_blank" >nsfw blowjob</a>
+		               <a class="dropdown-item" target="_blank" href="/api/nsfw/cuckold?apikey=SuaKey" target="_blank" >nsfw cuckold</a>
+		               <a class="dropdown-item" target="_blank" href="/api/nsfw/cum?apikey=SuaKey" target="_blank" >nsfw cum</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/ero?apikey=SuaKey" target="_blank" >nsfw ero</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/femdom?apikey=SuaKey" target="_blank" >nsfw femdom</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/foot?apikey=SuaKey" target="_blank" >nsfw foot</a>
+		                <a class="dropdown-item" target="_blank" href="/api/nsfw/gangbang?apikey=SuaKey" target="_blank" >nsfw gangbanh</a>
+		                <a class="dropdown-item" target="_blank" href="/api/nsfw/glasses?apikey=SuaKey" target="_blank" >nsfw glasses</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/hentai?apikey=SuaKey" target="_blank" >nsfw hentai</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/gifs?apikey=SuaKey" target="_blank" >nsfw gifs</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/jahy?apikey=SuaKey" target="_blank" >nsfw jahy</a>
+		                <a class="dropdown-item" target="_blank" href="/api/nsfw/manga?apikey=SuaKey" target="_blank" >nsfw manga</a>
+		                <a class="dropdown-item" target="_blank" href="/api/nsfw/masturbation?apikey=SuaKey" target="_blank" >nsfw mstb</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/neko?apikey=SuaKey" target="_blank" >nsfw neko</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/orgy?apikey=SuaKey" target="_blank" >nsfw orgy</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/panties?apikey=SuaKey" target="_blank" >nsfw panties</a>
+		                <a class="dropdown-item" target="_blank" href="/api/nsfw/pussy?apikey=SuaKey" target="_blank" >nsfw pussy</a>
+		                <a class="dropdown-item" target="_blank" href="/api/nsfw/neko2?apikey=SuaKey" target="_blank" >nsfw neko2</a>
+		                <a class="dropdown-item" target="_blank" href="/api/nsfw/tentacles?apikey=SuaKey" target="_blank" >nsfw tentacles</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/thighs?apikey=SuaKey" target="_blank" >nsfw things</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/yuri?apikey=SuaKey" target="_blank" >nsfw yuri</a>
+                        <a class="dropdown-item" target="_blank" href="/api/nsfw/zettai?apikey=SuaKey" target="_blank" >nsfw zettai</a>
+                        </div>
+                    </div> 
+                          <!--      
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                        style="font-style: italic;"><i class="fa fa-file-text"></i> TEXTO PRÓ </a>
+                                                          
+                        <div class="dropdown-menu bg-transparent border-0">
+                     <a class="dropdown-item">
+                       <h6 align="center"> 
+                       LOGOS
+                       </h6>
+                     </a>
+                               <a class="dropdown-item" href="/api/textpro/joker?text=Buh"
+                                style="font-style: italic;">Joker</a>
+                                 <a class="dropdown-item" href="/api/textpro/wolf?text=Buh&text2=api"
+                                style="font-style: italic;">Wolf</a>
+                            <a class="dropdown-item" href="/api/textpro/wolf2?text=Buh&text2=api"
+                                style="font-style: italic;">Logo Wolf 2</a>
+                            <a class="dropdown-item" href="/api/textpro/urso?text=Buh"
+                                style="font-style: italic;">Urso</a>
+         
+                            <a class="dropdown-item"
+                                href="/api/textpro/ninjalogo?text=Buh&text2=API"
+                                style="font-style: italic;">Ninja</a>
+                            <a class="dropdown-item" href="/api/textpro/leao?text=Buh&text2=APIz"
+                                style="font-style: italic;">leao</a>
+                       
+                         <a class="dropdown-item"><h6 align="center"> HERÓIS</h6></a>
+                            <a class="dropdown-item" href="/api/textpro/vingadores?text=Buh&text2=API"
+                                style="font-style: italic;">vingadores</a>
+                            <a class="dropdown-item" href="/api/textpro/marvel?text=Buh&text2=API"
+                                style="font-style: italic;">Marvel</a>
+                            <a class="dropdown-item" href="/api/textpro/thor?text=Buh&text2=API"
+                                style="font-style: italic;">Thor</a>
+                            <a class="dropdown-item" href="/api/textpro/capitaoamerica?text=Buh&text2=API"
+                                style="font-style: italic;">Capitão América</a>
+                                <a class="dropdown-item">
+                                  <h6 align="center">ALEATÓRIOS</h6>
+                                       <a class="dropdown-item" href="/api/textpro/pornhub?text=Buh&text2=API"
+                                style="font-style: italic;">PORNHUB</a>
+                            <a class="dropdown-item" href="/api/textpro/holograpic?text=Buh"
+                                style="font-style: italic;">Holograpic</a>
+ 
+                            <a class="dropdown-item" href="/api/textpro/blackpink?text=Buh"
+                                style="font-style: italic;">BlackPink</a>
+                            <a class="dropdown-item" href="/api/textpro/verao?text=Buh"
+                                style="font-style: italic;">Verão</a>
+                           
+                            <a class="dropdown-item" href="/api/textpro/harrypotter?text=Buh"
+                                style="font-style: italic;">Harry Potter</a>
+                            <a class="dropdown-item" href="/api/textpro/1917?text=Buh"
+                                style="font-style: italic;">1917</a>
+                            <a class="dropdown-item" href="/api/textpro/devil?text=Buh"
+                                style="font-style: italic;">Devil</a>
+                            <a class="dropdown-item" href="/api/textpro/thunder2?text=Buh"
+                                style="font-style: italic;">Thunder 2</a>
+                            <a class="dropdown-item" href="/api/textpro/space?text=Buh&text2=API"
+                                style="font-style: italic;">Space</a>
+                                </a>
+                        </div>
+                    </div>
+>-->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                        style="font-style: italic;"><i class="fa fa-picture-o"></i> WALLPAPER </a>
+                                                          
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/wallpaper/satanic?apikey=SuaKey">Wallpaper
+                                Satanic </a>
+
+                                            
+                        
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/wallpaper/cyberspace?apikey=SuaKey">Wallpaper Cyberspace </a>
+                            <a class="dropdown-item" target="_blank"
+                                href="/api/wallpaper/gaming?apikey=SuaKey">Wallpaper
+                                Gamer </a>
+
+                            <a class="dropdown-item" target="_blank" href="/api/wallpaper/wallpapertec?apikey=SuaKey">
+                                Wallpaper Tecnológico</a>
+                          
+                            <a class="dropdown-item" target="_blank" href="/api/wallpaper/ppcouple?apikey=SuaKey"
+                                style="font-style: italic;">PPcouple</a>
+                       
+
+                            <a class="dropdown-item" target="_blank" href="/api/wallpaper/pubg?apikey=SuaKey"
+                                style="font-style: italic;">PUBG</a>
+
+                            <a class="dropdown-item" target="_blank" href="/api/wallpaper/aesthetic?apikey=SuaKey"
+                                style="font-style: italic;">Aesthetic</a>
+                            <a class="dropdown-item" target="_blank" href="/api/wallpaper/aesthetic?apikey=SuaKey"
+                                style="font-style: italic;">Wallpaper Aesthetic</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/anime?apikey=SuaKey"
+                                style="font-style: italic;">Wallpaper Anime</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                        style="font-style: italic;"><i class="fa fa-film"></i> ANIMES </a>
+                                                          
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a class="dropdown-item" target="_blank" href="/api/anime/amv?apikey=SuaKey"
+                                style="font-style: italic;">AMV</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/cosplay?apikey=SuaKey"
+                                style="font-style: italic;">Cosplay</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/waifu?apikey=SuaKey"
+                                style="font-style: italic;">Waifu</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/waifu2?apikey=SuaKey"
+                                style="font-style: italic;">Waifu2</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/shota?apikey=SuaKey"
+                                style="font-style: italic;">shota</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/loli?apikey=SuaKey"
+                                style="font-style: italic;">Loli</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/yotsuba?apikey=SuaKey"
+                                style="font-style: italic;">Yotsuba</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/shinomiya?apikey=SuaKey"
+                                style="font-style: italic;">Shinomiya</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/yumeko?apikey=SuaKey"
+                                style="font-style: italic;">Yumeko</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/tejina?apikey=SuaKey"
+                                style="font-style: italic;">Tejina</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/chiho?apikey=SuaKey"
+                                style="font-style: italic;">Chiho</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/boruto?apikey=SuaKey"
+                                style="font-style: italic;">Boruto</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/kaori?apikey=SuaKey"
+                                style="font-style: italic;">Kaori</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/shizuka?apikey=SuaKey"
+                                style="font-style: italic;">Shizuka</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/kaga?apikey=SuaKey"
+                                style="font-style: italic;">Kaga</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/kotori?apikey=SuaKey"
+                                style="font-style: italic;">Kotori</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/mikasa?apikey=SuaKey"
+                                style="font-style: italic;">Mikasa</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/akiyama?apikey=SuaKey"
+                                style="font-style: italic;">Akiyama</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/gremory?apikey=SuaKey"
+                                style="font-style: italic;">Gremory</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/isuzu?apikey=SuaKey"
+                                style="font-style: italic;">Isuzu</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/shina?apikey=SuaKey"
+                                style="font-style: italic;">Shina</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/kagura?apikey=SuaKey"
+                                style="font-style: italic;">Kagura</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/shinka?apikey=SuaKey"
+                                style="font-style: italic;">Shinka</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/eba?apikey=SuaKey"
+                                style="font-style: italic;">Eba</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/elaina?apikey=SuaKey"
+                                style="font-style: italic;">Elaina</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/yuri?apikey=SuaKey"
+                                style="font-style: italic;">Yuri</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/erza?apikey=SuaKey"
+                                style="font-style: italic;">Erza</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/hinata?apikey=SuaKey"
+                                style="font-style: italic;">Hinata</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/minato?apikey=SuaKey"
+                                style="font-style: italic;">Minato</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/naruto?apikey=SuaKey"
+                                style="font-style: italic;">Naruto</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/sagiri?apikey=SuaKey"
+                                style="font-style: italic;">Sagiri</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/nezuko?apikey=SuaKey"
+                                style="font-style: italic;">Nezuko</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/rize?apikey=SuaKey"
+                                style="font-style: italic;">Rize</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/ana?apikey=SuaKey"
+                                style="font-style: italic;">Anna</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/deidara?apikey=SuaKey"
+                                style="font-style: italic;">Deidara</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/yuki?apikey=SuaKey"
+                                style="font-style: italic;">Yuki</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/ana?apikey=SuaKey"
+                                style="font-style: italic;">Anna</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/asuna?apikey=SuaKey"
+                                style="font-style: italic;">Asuna</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/ayuzawa?apikey=SuaKey"
+                                style="font-style: italic;">Ayuzawa</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/chitoge?apikey=SuaKey"
+                                style="font-style: italic;">Chitoge</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/emilia?apikey=SuaKey"
+                                style="font-style: italic;">Emilia</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/hestia?apikey=SuaKey"
+                                style="font-style: italic;">Hestia</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/inori?apikey=SuaKey"
+                                style="font-style: italic;">Inori</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/itachi?apikey=SuaKey"
+                                style="font-style: italic;">Itachi</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/madara?apikey=SuaKey"
+                                style="font-style: italic;">Madara</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/sakura?apikey=SuaKey"
+                                style="font-style: italic;">Sakura</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/sasuke?apikey=SuaKey"
+                                style="font-style: italic;">Sasuke</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/tsunade?apikey=SuaKey"
+                                style="font-style: italic;">Tsunade</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/onepiece?apikey=SuaKey"
+                                style="font-style: italic;">One Piece</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/mobil?apikey=SuaKey"
+                                style="font-style: italic;">Mobil</a>
+
+                            <a class="dropdown-item" target="_blank" href="/api/anime/keneki?apikey=SuaKey"
+                                style="font-style: italic;">Kaneki</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/megumin?apikey=SuaKey"
+                                style="font-style: italic;">Megumin</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/toukachan?apikey=SuaKey"
+                                style="font-style: italic;">Toukachan</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/akira?apikey=SuaKey"
+                                style="font-style: italic;">Akira</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/itori?apikey=SuaKey"
+                                style="font-style: italic;">Itori</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/kurumi?apikey=SuaKey"
+                                style="font-style: italic;">Kurumi</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/miku?apikey=SuaKey"
+                                style="font-style: italic;">Miku</a>
+                            <a class="dropdown-item" target="_blank" href="/api/anime/pokemon?apikey=SuaKey"
+                                style="font-style: italic;">Pokemon</a>
+
+                </div>
+        </div>
+    </div>
+    </div>
+    </nav>
+    </div>
+    <!-- Sidebar End -->
+
+
+    <!-- Content Start -->
+    <div class="content">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
+            <a href="#" class="sidebar-toggler flex-shrink-0">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="central">
+                <h3 class="" align="center">Venom Apis<i class="" align="center"><img src="img/satoru.png" alt="" width="30"
+                            ></i></h3>
+            </div>
+            <div class="navbar-nav align-items-center ms-auto">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <i class="fa fa-bell me-lg-2"></i>
+                        <span class="d-none d-lg-inline-flex">Notificações</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                    
+<<a href="#" class="dropdown-item">
+  <h6 class="fw-normal mb-0"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Aproveite 💜!</h6>
+  <small class="im"> Os melhores métodos e apis para bot</small>
+</a>
+
+<a href="https://www.youtube.com/@VenomModsss" class="dropdown-item">
+  <h6 class="fw-normal mb-0"><i class="fa fa-youtube" aria-hidden="true"></i> Canal Ofc </h6>
+  <small class="im"> Rumo aos 9k 💜 </small>
+</a>
+
+<a href="https://www.youtube.com/@VenomKuromi" class="dropdown-item">
+  <h6 class="fw-normal mb-0"><i class="fa fa-youtube" aria-hidden="true"></i> Canal Kuromi Mods </h6>
+  <small class="im"> Segue la família 💜 </small>
+</a>
+
+<a href="https://web.whatsapp.com/554388337208" class="dropdown-item">
+  <h6 class="fw-normal mb-0"><i class="fa fa-whatsapp" aria-hidden="true"></i> Contato </h6>
+  <small class="im"> Compre sua key 💜 </small>
+</a>
+
+<a href="https://web.telegram.org/VenomDsn" class="dropdown-item">
+  <h6 class="fw-normal mb-0"><i class="fa fa-telegram" aria-hidden="true"></i> Telegram</h6>
+  <small class="im"> Chama ai 💜</small>
+</a>
+
+<a href="https://www.instagram.com/venom_mods_ofc" class="dropdown-item">
+  <h6 class="fw-normal mb-0"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</h6>
+  <small class="im"> Segue lá 💜</small>
+</a>
+                                
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    
+                    <!-- <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0"> -->
+                    <!-- <a href="#" class="dropdown-item">My Profile</a> -->
+                    <!-- <a href="#" class="dropdown-item">Settings</a> -->
+                    <!-- <a href="#" class="dropdown-item">Log Out</a> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </nav>
+
+        <!-- Footer Start -->
+  
+
+
+            
+            <div class="container-fluid pt-4 px-4" align="center">
+
+
+<div class="ba">
+    <div class="baum">
+    <br>
+      <h6 class="mb-0">
+      informações
+ <div class="testimonial-item text-center"><br>
+    <img class="img-fluid rounded-circle mx-auto mb-4" src="https://telegra.ph/file/73029040f9bac0590f1a8.jpg"
+style="width: 100px; height: 100px;">
+    <h5 class="mb-1">DESENVOLVIDO POR:</h5>
+    <p>Venom Mods</p>
+
+    <p>Esse é meu conjunto de Apis &#128512; <br>Se houver bugs por favor me contate!!
+    </p>
+    <div class="icons-container" align="start">
+    <a href="https://youtube.com/@VenomModsss/" class="icon">
+    <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://wa.me/559791535587" class="icon">
+    <i class="#" width="10px"></i>
+    </a><br><br>
+    </div>
+</div>
+ </div>
+</div><br>
+
+                <div class="row g-4">
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="oii rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-street-view faa-ring animated fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">USÚARIOS</p>
+                                <h6 class="mb-0">400</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="oii rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-eye faa-tada animated fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">VISITANTES</p>
+<!-- Código do crachá - Não altere o código -->
+<h6 class="mb-0">
+<b class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="059339c9a1780e2b4d64ac9d58d1b14c|9|external|1|#ff0000|#ffffff|small|s-hit">1000</b><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+</h6>
+<!-- O código do crachá termina aqui -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="oii rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-key faa-wrench animated fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">APIKEYS</p>
+                                <h6 class="mb-0">296</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="oii rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-times-circle faa-pulse animated fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">ERROS</p>
+                                <h6 class="mb-0">5</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+<div class="col-sm-6 col-xl-3">
+    <div class="oii rounded d-flex flex-column align-items-center justify-content-between p-4">
+        <h6 class="mb-2">Doar Pix</h6>
+        <div class="m-n2">
+            <input type="text" id="chavePix" placeholder="Digite o valor" class="form-control mb-2">
+            <button onclick="gerarChave()" class="btn btn-outline-primary" style="background-color: #8A2BE2; color: white;">Gerar Chave Pix</button>
+        </div>
+        <div id="chavePixGerada" style="display: none;">
+            <p id="chavePixTexto"></p>
+            <button onclick="copiarChavePix()" class="btn btn-outline-primary">Copiar Chave Pix</button>
+        </div>
+    </div>
+</div>
+
+                    
+<div class="col-sm-6 col-xl-3">
+    <div class="oii rounded d-flex flex-column align-items-center justify-content-between p-4">
+        <h6 class="mb-2">Verificar seu requests</h6>
+        <div class="m-n2">
+            <input type="text" id="chaveRequests" placeholder="Digite sua key" class="form-control mb-2">
+            <button onclick="verificarRequests()" class="btn btn-outline-primary" style="background-color: #8A2BE2; color: white;">Verificar Requests</button>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 col-xl-3">
+    <div class="oii rounded d-flex flex-column align-items-center justify-content-between p-4">
+        <h6 class="mb-2">Painel de consultas</h6>
+        <div class="m-n2">
+            <button onclick="window.location.href='Painel'" class="btn btn-outline-primary" style="background-color: #8A2BE2; color: white;">Acessar Painel</button>
+        </div>
+    </div>
+</div>
+
+
+<script>
+function verificarRequ6sts() {
+    var chave = document.getElementById('chaveInput').value;
+    window.location.href = `/api/verificador/requests?key=${chave}`;
+}
+function gerarChave() {
+    var total = document.getElementById('chavePix').value;
+    window.location.href = `/api/pegamento/pix?valor=${total}`;
+}
+</script>
+
+<h3 class="mb-0" ><audio autoplay> <!--agora com autoplay e sem controls-->
+<source src="https://c.top4top.io/m_3007c5q6c0.mp4" type="audio/mp4">
+<source src="https://c.top4top.io/m_3007c5q6c0.mp4" type="audio/mp4">
+</audio></h3>
+<!--<div class="ba">
+   <div class="baum">
+      <h6 class="mb-0">
+ <h6 class="mb-0">
+<p>~ Novidades ~</p>
+<hr>
+<h6>
+<h6 class="fw-normal mb-0"><i class="fa fa-exclam ation-triangle" aria-hidden="true"></i> Consultas adicionada! <i class="fa fa-excla mation-triangle" aria-hidden="true"></i></h6>
+<small class="im"> 07/03/204 </small>
+</h6>
+<hr>
+<h6 class="fw-normal mb-0"><i class="fa fa-exclam ation-triangle" aria-hidden="true"></i> Conselhos adicionados! <i class="fa fa-exclamati on-triangle" aria-hidden="true"></i></h6>
+<small class="im"> 07/03/24 </small>
+</h6>
+<hr>
+<h6 class="fw-normal mb-0"><i class="fa fa-exclam ation-triangle" aria-hidden="true"></i>Instagram download adicionado! <i class="fa fa-exclamation -triangle" aria-hidden="true"></i></h6>
+<small class="im"> 07/03/24 </small>
+</h6>
+<hr>
+<h6 class="fw-normal mb-0"><i class="fa fa-exclam ation-triangle" aria-hidden="true"></i> Pinterest download adicionado! <i class="fa fa-exclamatio n-triangle" aria-hidden="true"></i></h6>
+<small class="im"> 07/03/24 </small>
+</h6>
+<hr>
+<h6 class="fw-normal mb-0"><i class="fa fa-exclam ation-triangle" aria-hidden="true"></i> Tiktok download adicionado! <i class="fa fa-exclamat ion-triangle" aria-hidden="true"></i></h6>
+<small class="im"> 07/03/24 </small>
+</h6>
+
+    </h6>
+  </div>
+</div>
+--->
+  <style>
+   
+
+#clock {
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    color: rgba(138, 43, 226, 0.8); /* Cor do texto violeta */
+    background: rgba(000,000,000 , 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+  </style>
+
+  <div id="clock"></div>
+
+  <script>
+    function updateTime() {
+      var now = new Date();
+      var hours = now.getHours().toString().padStart(2, '0');
+      var minutes = now.getMinutes().toString().padStart(2, '0');
+      var seconds = now.getSeconds().toString().padStart(2, '0');
+      var timeString = hours + ":" + minutes + ":" + seconds;
+      document.getElementById("clock").textContent = timeString;
+    }
+
+    setInterval(updateTime, 1000); // Atualiza o relógio a cada segundo
+    updateTime(); // Chama updateTime() uma vez para exibir o tempo atual imediatamente
+  </script>
+  
+<div class="ba">
+    <div class="baum">
+      <h6 class="mb-0">
+
+<p>© <a href="#">Venom Mods </a>, All Right Reserved.</div>
+</div>
+</h6>
+</div>
+
+
+
+
+ </div>
+</div><br>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- Footer End -->
+        <!-- Footer End -->
+
+    </div>
+    <!-- Content End -->
+
+
+    <!-- Back to Top -->
+
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
+
+.ba{
+background: rgba(000,000,000 , 0.7);
+border-radius: 5px;
+}
+.ba hr{
+color: white;
+}
+.baum{
+margin: 10px;
+}
+.icons-container{
+
+}
+.bah{
+color: #07e8d9;
+}
+.col-12{
+color: #fff;
+}
+
+        .container:after {
+            background-color:#EB1616
+            content: "";
+            height: 10px;
+            position: absolute;
+            top: 390px;
+            width: 100%;
+        }
+
+        .container:hover {
+            transform: scale(0.54);
+        }
+
+        .container-inner {
+            clip-path: path("M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z"
+                );
+            position: relative;
+            transform-origin: 50%;
+            top: -200px;
+        }
+
+        /*.icon {
+    margin-right: 30px;
+    position: position-fixed;
+  }
+        .fa-whatsapp {
+            animation: flutuacao 3s ease-in-out infinite;
+        }
+        .fa-github {
+            animation: flutuacao 3s ease-in-out infinite;
+        }
+         .fa-whatsapp {
+            animation: flutuacao 3s ease-in-out infinite;
+        }
+       @keyframes flutuacao {
+       0%, 100%{
+         transform: translateY(-0px);
+    }
+        50% {
+        transform: translateY(-10px);
+    } 
+    }
+*/
+        .central {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 30px;
+        }
+
+        .padding {
+            margin-top: 35px;
+            font-size: medium;
+        }
+
+        h6 {
+            font-family: 'Prompt', sans-serif;
+            /* font-family: 'Roboto', sans-serif; */
+        }
+
+        h3 {
+            font-family: 'Prompt', sans-serif;
+        }
+
+        .fa-money {
+
+            color: #089785;
+        }
+  </style>
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,100&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     
-  <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-  <!--remox icon-->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <style>
+    /* Estilos para tornar o pop-up com fundo preto transparente */
+    .swal-overlay {
+      background-color: rgba(0, 0, 0, 0.5) !important; /* Define a cor de fundo como preto com transparência */
+    }
+
+    /* Reduzir o tamanho do texto */
+    .swal-title,
+    .swal-text,
+    .swal-footer {
+      font-size: 10px !important; /* Ajusta o tamanho da fonte do texto */
+      color: black // rgba(138, 43, 226, 0.8) !important; /* Define a cor do texto como violeta escuro */
+    }
+
+    /* Define a cor de fundo do HTML como vermelho */
+    html {
+      background-color: oii;
+    }
+
+    /* Estilos para tornar o pop-up com borda transparente */
+    .swal-modal {
+      background-image: ("https://telegra.ph/file/ab9ec9be17035d8c1b0d3.jpg");
+      border: 2px solid rgba(138, 43, 226, 0.8) !important; /* Define a borda com transparência */
+      border-radius: 10px; /* Adiciona bordas arredondadas */
+      width: 250px !important; /* Reduz a largura do pop-up */
+      height: 250px !important; /* Reduz a altura do pop-up */
+    }
+
+    /* Estilos para a imagem */
+    .swal-content img {
+      max-width: 30%;
+      max-height: 30%;
+      width: auto !important;
+      height: auto !important;
+      margin: auto;
+      display: block;
+      border-radius: 9px; /* Adiciona bordas arredondadas à imagem */
+    }
+
+    /* Estilos para o botão */
+    .swal-button {
+      background-color: rgba(138, 43, 226, 0.8) !important; /* Define a cor de fundo do botão como violeta escuro */
+      color: #fff !important; /* Define a cor do texto do botão como branco */
+    }
+  </style>
 </head>
 <body>
-    
 
-<header>
-  <a href="#" class="logo">ELGA<span>ZAR</span></a>
-  <div class="bx bx-menu" id="menu-icon"></div>
-  <ul class="navlist">
-    <li><a href="#home">الرئيسيه</a></li>
-    <li><a href="#about">عني</a></li>
-    <li><a href="#services">مشاريعي</a></li>
-    <li><a href="#contact">لاتصال</a></li>
-
-  </ul>
-<div class="top-btnn">
-  <a href="https://t.me/YA55EN0" class="h-btn">مجتمعنا</a>
-</div>
-
-</header>
-
-
-<section class="hero" id="home">
-<div class="main-content" data-aos="fade-in">
-  <h4>مرحبا</h4>
-  <h1>انا <span>ياسين</span></h1>
-  <p>انا مبرمج بسيط</p>
-<div class="social">
-  <a href="https://t.me/YA55EN0"><i class="ri-telegram-fill"></i></a>
-  <a href="https://www.instagram.com/y_1_s_n"><i class="ri-instagram-fill"></i></a>
-  <a href="https://wa.me/201154869468?text=بحبك💀❤"><i class="ri-whatsapp-fill"></i></a>
-  <a href="https://youtube.com/@ya55en?si=A8r7JtzHqWPtRR-g"><i class="ri-youtube-fill"></i></a>
-</div>
-<div class="main-btn">
-  <a href="https://www.tiktok.com/@b__v_" class="btn">تيك توك</a>
-  <a href="https://whatsapp.com/channel/0029VaMe7eCEAKWHyud72j2H" class="btn btn2">قناتنا</a>
-</div>
-
-</div>
-
-</section>
-
-<section class="about" id="about">
-  <div class="about-img" data-aos="zoom-in-down">
-    <img src="mainimg.jpg" >
-  </div>
-<div class="about-text" data-aos="zoom-in-up">
-  <h2>انا<span> مطور</span> برامج </h2>
-  <div class="exp-area">
-    <p class="exp">
-      ومواقع وبوتات 
-      <span>بسيط</span>
-    </p>
-    
-    <p class="exp">
-      التخصص:
-      <span>برمجه بوتات</span>
-    </p>
-    <p class="exp">
-      العنوان: 
-      <span>مصر, الجيزه</span>
-    </p>
-    
-    <p class="exp">
-      الرقم: 
-      <span>201154869468</span>
-    </p>
-  </div>
-  <a href="https://t.me/YA55EN0" class="btn">قناه التلي</a>
-</div>
-
-</section>
-
-<section class="services" id="services">
-  <div class="center-text" data-aos="fade-down">
-    <h2>الخدمات <span>وبعض المشاريع التي اعمل عليها</span> </h2>
-  </div>
-  <div class="services-content" data-aos="zoom-in-up">
-
-    <div class="box">
-
-      <img src="https://telegra.ph/file/24bb9841a79d8b45e8441.jpg" alt="">
-      <h3>لينك حظر otp</h3>
-      <p>صلي علي النبي</p>
-      <a href="https://t.me/YA55EN0/629">توثيق الواتساب
- <i class="ri-arrow-right-line"></i>
-
-      </a>
-    </div>
-
-    <div class="box">
-
-      <img src="https://telegra.ph/file/3ebed5b2ddbbe1d6c43e3.jpg" alt="">
-      <h3>الواتساب</h3>
-      <p>لا تتردد بالاتصال بي في اي وقت</p>
-      <a href="https://wa.me/2011154869468?text=بحبك💀❤">اتصال
- <i class="ri-arrow-right-line"></i>
-
-      </a>
-    </div>
-
-    <div class="box">
-
-      <img src="./img/railway.png" alt="">
-      <h3>مشروع جديد</h3>
-      <p>انتظر المزيد من المشاريع قريبا</p>
-      <a href="">قريبا...
- <i class="ri-arrow-right-line"></i>
-
-      </a>
-    </div>
-
-  </div>
-</section>
-
-<section class="contact" id="contact">
-  <div class="center-text" data-aos="fade-down">
-    <h2>اتصل <span>بي</span></h2>
-  </div>
-  <div class="contact-form" data-aos="zoom-in">
-    <form action="">
-      <input type="text" placeholder="اسمك" required>
-      <input type="email" placeholder="البريد الالكتروني..." required>
-      <textarea name="" id="" cols="30" rows="10" placeholder="اكتب الرساله هنا." required></textarea>
-      <input type="submit" value="ارسل" class="send-btn">
-    </form>
-  </div>
-</section>
-
-<div class="footer">
-  <div class="copyright">
-    <p>جميع الحقوق محفوظه لـ ياسين2024</p>
-  </div>
-  <a href="#home" class="scroll-top">
-    <i class="ri-arrow-up-s-fill"></i>
-  </a>
-</div>
-	   <script>
- document.onkeydown = function(e) {
-        if (e.ctrlKey && 
-            (e.keyCode === 67 ||
-            e.keyCode === 97 ||
-            e.keyCode === 65 ||
-             e.keyCode === 99 || 
-             e.keyCode === 86 || 
-             e.keyCode === 86 || 
-             e.keyCode === 85 ||
-             e.keyCode === 105 ||
-             e.keyCode === 73 ||
-             e.keyCode === 117)) {
-            alert('Not Allowed!');
-            return false;
-        } else {
-            return true;
-        }
-};
-    </script>
-<script src="./script.js"></script>
-  
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-  AOS.init({
-offset:300,
-duration:1400,
-  });
+function verificarRequests() {
+   var chave = document.getElementById('chaveRequests').value;
+    
+    // Fazendo uma requisição AJAX para o endpoint
+    fetch(`/api/verificador/requests?key=${chave}`)
+    .then(response => response.json())
+    .then(data => {
+        // Verifica o status retornado pelo servidor
+        if (data.status === 'Apikey ativa ✓') {
+            // Se a chave estiver ativa, exibe os detalhes no pop-up
+            Swal.fire({
+                title: 'Key ativa!',
+                html: `Sua Key: ${data.sua_key}<br>
+                       Total de Requests: ${data.total_requests}<br>
+                       Consumo por comamdo: 5 requests<br> 
+                       Consumo por consultas: 10 requests`,
+                icon: 'success',
+                showCloseButton: true,
+                showConfirmButton: false,
+                timer: 3000
+            });
+        } else {
+            // Se a chave não estiver ativa, exibe uma mensagem de erro
+            Swal.fire({
+                title: 'Key inválida!',
+                text: data.mensagem,
+                icon: 'error'
+            });
+        }
+    })
+    .catch(error => {
+        console.error('Erro ao fazer a requisição:', error);
+        // Exibindo um pop-up de erro se algo der errado
+        Swal.fire({
+            title: 'Erro',
+            text: 'Ocorreu um erro ao processar a solicitação.',
+            icon: 'error'
+        });
+    });
+}
+  // Função para exibir o pop-up quando a página for totalmente carregada
+  window.onload = function() {
+    swal({
+      title: 'Bem Vindo(a) ao venom web site ❤️',
+      text: 'Melhores métodos e apis',
+      content: {
+        element: "img",
+        attributes: {
+          src: "https://telegra.ph/file/ab9ec9be17035d8c1b0d3.jpg"
+        }
+      },
+      footer: 'Espero que goste',
+      buttons: {
+        confirm: {
+          text: "OK",
+          value: true,
+          visible: true,
+          className: "Kskks",
+          closeModal: true
+        }
+      },
+      closeOnClickOutside: false // Impede que o pop-up seja fechado ao clicar fora dele
+    });
+  };
 </script>
 
 </body>
-</html>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/chart/chart.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+   <script src="assets/owl-carousel/owl.carousel.js"></script>
 
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script>
+
+    </script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
